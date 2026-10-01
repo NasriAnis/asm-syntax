@@ -1,0 +1,11 @@
+id = "asm-syntax"
+name = "Assembly Syntax"
+version = "0.0.1"
+schema_version = 1
+authors = ["NasriAnis"]
+description = "Assembly syntax highlighting (GAS/NASM) via tree-sitter-asm"
+repository = "https://github.com/NasriAnis/asm-syntax"
+
+[grammars.asm]
+repository = "https://github.com/RubixDev/tree-sitter-asm"
+rev = "839741fef4dab5128952334624905c82b40c7133"
